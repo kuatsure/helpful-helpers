@@ -1,0 +1,7 @@
+@mixin rwdcalc($target, $context, $margin, $padding, $border) {
+ 
+  width: percentage($target / $context);
+  margin: percentage($margin / $target);
+  padding: percentage($padding / $target);
+  border: $border + px;
+}

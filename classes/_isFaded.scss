@@ -1,0 +1,4 @@
+%is-faded {
+  @include opacity( .5 );
+  cursor: not-allowed !important;
+}

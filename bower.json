@@ -1,0 +1,25 @@
+{
+  "name": "helpful-helpers",
+  "version": "0.1.0",
+  "authors": [
+    "Jarrett Drouillard <jarrett@thestyl.us>"
+  ],
+  "description": "An opinionated collection of mixins and classes for sass",
+  "main": "_helpful-helpers.scss",
+  "keywords": [
+    "helpful",
+    "helpers",
+    "scss",
+    "sass",
+    "mixins",
+    "classes"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
