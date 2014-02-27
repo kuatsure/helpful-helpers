@@ -1,0 +1,16 @@
+@mixin content-anchor( $dormant-color: #00f, $active-color: #c0c ) {
+  a:link,
+  a:visited {
+    border-bottom: 1px dashed $dormant-color;
+    color: $dormant-color;
+    text-decoration: none;
+    @include single-transition( all, .5s );
+  }
+
+  a:active,
+  a:focus,
+  a:hover {
+    border-bottom: 1px solid $active-color;
+    color: $active-color;
+  }
+}
