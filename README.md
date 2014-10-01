@@ -4,11 +4,6 @@
 
 Not all classes / mixins are written by me. Will give props to whomever if applicable.
 
-
-### Requirements
-
-* [Compass](http://compass-style.org/)
-
 ### Installation
 
 Install from [bower](http://bower.io).
@@ -18,12 +13,6 @@ $ bower install helpful-helpers -S
 ```
 
 ### Usage
-
-Adjust your `config.rb` to include `bower_components`.
-
-```rb
-add_import_path "/bower_components"
-```
 
 #### One shot import
 
