@@ -1,0 +1,29 @@
+// Credit: thoughtbot - http://robots.thoughtbot.com/sasss-content-directive
+
+/* USAGE
+
+.block {
+  color: red;
+
+  @include element(element) {
+    color: green;
+
+    @include modifier(modifier) {
+      color: blue;
+    }
+  }
+}
+
+*/
+
+@mixin element($name) {
+  @at-root #{&}__#{$name} {
+    @content;
+  }
+}
+
+@mixin modifier($name) {
+  @at-root #{&}--#{$name} {
+    @content;
+  }
+}
