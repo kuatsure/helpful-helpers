@@ -2,6 +2,8 @@
 
 > An opinionated collection of mixins and classes for sass
 
+[![Bower Version](http://img.shields.io/bower/v/helpful-helpers.svg)](https://github.com/kuatsure/helpful-helpers)
+
 Not all classes / mixins are written by me. Will give props to whomever if applicable.
 
 ### Installation
@@ -17,14 +19,14 @@ $ bower install helpful-helpers -S
 #### One shot import
 
 ```scss
-@import "helpful-helpers/helpful-helpers";
+@import "path/to/bower_components/helpful-helpers/helpful-helpers";
 ```
 
 #### Piecemeal import
 
 ```scss
-@import "helpful-helpers/classes";
-@import "helpful-helpers/mixins";
+@import "path/to/bower_components/helpful-helpers/classes";
+@import "path/to/bower_components/helpful-helpers/mixins";
 ```
 
 You can also import on a per class / mixin as well.
