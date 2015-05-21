@@ -19,7 +19,7 @@ $ bower install helpful-helpers -S
 #### One shot import
 
 ```scss
-@import "path/to/bower_components/helpful-helpers/helpful-helpers";
+@import "path/to/bower_components/helpful-helpers/all";
 ```
 
 #### Piecemeal import

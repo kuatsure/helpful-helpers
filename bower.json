@@ -5,7 +5,7 @@
     "Jarrett Drouillard <jarrett@thestyl.us>"
   ],
   "description": "An opinionated collection of mixins and classes for sass",
-  "main": "_helpful-helpers.scss",
+  "main": "_all.scss",
   "keywords": [
     "helpful",
     "helpers",
