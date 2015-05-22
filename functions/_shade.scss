@@ -1,12 +1,12 @@
-/* Yanked from http://sass-guidelin.es/#lightening-and-darkening-colors */
+/* Inspired by http://sass-guidelin.es/#lightening-and-darkening-colors */
 
 /*
 Slightly darken a color
 @access public
 @param {Color} $color - color to shade
-@param {Number} $percentage - percentage of `$color` in returned color
+@param {Number} $percentage [50%] - percentage of `$color` in returned color
 @return {Color}
 */
-@function shade($color, $percentage) {
+@function shade($color, $percentage: 50%) {
   @return mix(black, $color, $percentage);
 }
