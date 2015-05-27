@@ -1,0 +1,25 @@
+/* Yanked from http://anotheruiguy.roughdraft.io/83ff2c48b3e3a472f7ed-living-life-with-flex-box-and-sass */
+
+/* Requires ../functions/gutter-value */
+
+// Place in mixins related dir
+@mixin flex-grid-container( $wrap: null ) {
+  display: flex;
+  flex-wrap: $wrap;
+
+  @if $wrap {
+    justify-content: space-between;
+  }
+}
+
+@mixin flex-grid-item( $arg, $gutter: null, $margin: null ) {
+  flex-basis: gutter-value( $arg, $gutter );
+
+  @if $margin != null {
+    margin-bottom: $margin;
+
+    &:nth-last-child( -n+#{$arg} ) {
+      margin-bottom: 0;
+    }
+  }
+}
