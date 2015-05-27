@@ -1,0 +1,13 @@
+/* Yanked from http://anotheruiguy.roughdraft.io/83ff2c48b3e3a472f7ed-living-life-with-flex-box-and-sass */
+
+// Place in Functions related dir
+@function gutter-value( $arg, $gutter ) {
+  @if $gutter {
+    $value: 100 / $arg - 1 * 1%;
+
+  } @else {
+    $value: 100 / $arg * 1%;
+  }
+
+  @return $value;
+}
