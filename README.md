@@ -19,14 +19,14 @@ $ bower install helpful-helpers -S
 #### One shot import
 
 ```scss
-@import "path/to/bower_components/helpful-helpers/all";
+@import 'path/to/bower_components/helpful-helpers/all';
 ```
 
 #### Piecemeal import
 
 ```scss
-@import "path/to/bower_components/helpful-helpers/classes";
-@import "path/to/bower_components/helpful-helpers/mixins";
+@import 'path/to/bower_components/helpful-helpers/classes';
+@import 'path/to/bower_components/helpful-helpers/mixins';
 ```
 
 You can also import on a per class / mixin as well.

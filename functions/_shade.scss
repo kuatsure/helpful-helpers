@@ -7,6 +7,6 @@ Slightly darken a color
 @param {Number} $percentage [50%] - percentage of `$color` in returned color
 @return {Color}
 */
-@function shade($color, $percentage: 50%) {
-  @return mix(black, $color, $percentage);
+@function shade( $color, $percentage: 50% ) {
+  @return mix( #000, $color, $percentage );
 }

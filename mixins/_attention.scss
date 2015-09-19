@@ -1,12 +1,12 @@
 // from https://gist.github.com/csswizardry/35c9c323d22eefdbf293
 // added `.active` class to original mixin
 
-@mixin attention() {
-    &.current-item,
-    &.active,
-    &:active,
-    &:hover,
-    &:focus {
-        @content;
-    }
+@mixin attention {
+  &.current-item,
+  &.active,
+  &:active,
+  &:focus,
+  &:hover {
+    @content;
+  }
 }

@@ -16,13 +16,13 @@
 
 */
 
-@mixin element($name) {
+@mixin element( $name ) {
   @at-root #{&}__#{$name} {
     @content;
   }
 }
 
-@mixin modifier($name) {
+@mixin modifier( $name ) {
   @at-root #{&}--#{$name} {
     @content;
   }
