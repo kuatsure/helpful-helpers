@@ -1,12 +1,49 @@
-// from https://gist.github.com/csswizardry/35c9c323d22eefdbf293
-// added `.active` class to original mixin
+$default-attentions: '.active', ':active', ':focus', ':hover' !default;
 
-@mixin attention {
-  &.current-item,
-  &.active,
-  &:active,
-  &:focus,
-  &:hover {
+// USAGE:
+//
+// a {
+//   @include attention {
+//     color: red;
+//   }
+// }
+//
+// b {
+//   @include attention( ( '.alpha', '.beta' ) )  {
+//     color: blue;
+//   }
+// }
+//
+// $default-attentions: '.hi', '.there';
+// c {
+//   @include attention {
+//     color: green;
+//   }
+// }
+//
+// COMPILED:
+//
+// a.active, a:active, a:focus, a:hover {
+//   color: red;
+// }
+//
+// b.alpha, b.beta {
+//   color: blue;
+// }
+//
+// c.hi, c.there {
+//   color: green;
+// }
+
+
+@mixin attention( $classes: $default-attentions ) {
+  $selector: ();
+
+  @each $c in $classes {
+    $selector: append( $selector, unquote('&#{$c}'), 'comma' );
+  }
+
+  #{$selector} {
     @content;
   }
 }
