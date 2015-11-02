@@ -1,6 +1,6 @@
 // Snagged from @asimpson https://gist.github.com/asimpson/3739846
 
-$base-font-multiplier: 1!default;
+$base-font-multiplier: 1 !default;
 
 @mixin font-size( $decimal-size, $keyword: null ) {
   @if $keyword{ font-size: $keyword; }

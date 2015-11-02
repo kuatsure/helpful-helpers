@@ -37,10 +37,10 @@ $default-attentions: '.active', ':active', ':focus', ':hover' !default;
 
 
 @mixin attention( $classes: $default-attentions ) {
-  $selector: ();
+  $selector: ( );
 
   @each $c in $classes {
-    $selector: append( $selector, unquote('&#{$c}'), 'comma' );
+    $selector: append( $selector, unquote( '&#{$c}' ), 'comma' );
   }
 
   #{$selector} {
