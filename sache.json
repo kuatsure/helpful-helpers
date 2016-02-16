@@ -1,0 +1,10 @@
+{
+  "name": "helpful-helpers",
+  "description": "An opinionated collection of mixins and classes for sass",
+  "tags": [
+    "helpful",
+    "helpers",
+    "mixins",
+    "classes"
+  ]
+}
