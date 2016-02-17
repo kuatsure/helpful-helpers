@@ -1,0 +1,26 @@
+{
+  "name": "helpful-helpers",
+  "version": "0.7.0",
+  "description": "An opinionated collection of mixins and classes for sass",
+  "author": {
+    "name": "Jarrett Drouillard",
+    "email": "jarrett@thestyl.us",
+    "url": "https://github.com/kuatsure"
+  },
+  "main": "_all.scss",
+  "keywords": [
+    "helpful",
+    "helpers",
+    "scss",
+    "sass",
+    "mixins",
+    "classes"
+  ],
+  "homepage": "https://github.com/kuatsure/helpful-helpers",
+  "bugs": "https://github.com/kuatsure/helpful-helpers/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kuatsure/helpful-helpers.git"
+  },
+  "license": "MIT"
+}
