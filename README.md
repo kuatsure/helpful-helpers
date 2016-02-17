@@ -2,7 +2,7 @@
 
 > An opinionated collection of mixins and classes for sass
 
-[![Bower Version](http://img.shields.io/bower/v/helpful-helpers.svg)](https://github.com/kuatsure/helpful-helpers)
+[![GitHub tag](https://img.shields.io/github/tag/kuatsure/helpful-helpers.svg)](https://github.com/kuatsure/helpful-helpers)
 
 Not all classes / mixins are written by me. Will give props to whomever if applicable.
 
