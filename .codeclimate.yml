@@ -6,3 +6,8 @@ engines:
 ratings:
   paths:
    - "**/*.scss"
+exclude_paths:
+  - "README.md"
+  - "bower.json"
+  - "package.json"
+  - "sache.json"
