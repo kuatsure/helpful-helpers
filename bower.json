@@ -18,6 +18,8 @@
   "ignore": [
     "**/.*",
     "bower_components",
+    "package.json",
+    "sache.json",
     "test",
     "tests"
   ]
