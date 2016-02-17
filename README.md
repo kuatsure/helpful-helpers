@@ -8,25 +8,31 @@ Not all classes / mixins are written by me. Will give props to whomever if appli
 
 ### Installation
 
-Install from [bower](http://bower.io).
+Install with [bower](http://bower.io).
 
 ```bash
 $ bower install helpful-helpers -S
 ```
 
-### Usage
+Install with [npm](https://www.npmjs.com/).
+
+```bash
+$ npm install helpful-helpers -S
+```
+
+### Importing
 
 #### One shot import
 
 ```scss
-@import 'path/to/bower_components/helpful-helpers/all';
+@import 'path/to/helpful-helpers/all';
 ```
 
 #### Piecemeal import
 
 ```scss
-@import 'path/to/bower_components/helpful-helpers/classes';
-@import 'path/to/bower_components/helpful-helpers/mixins';
+@import 'path/to/helpful-helpers/classes';
+@import 'path/to/helpful-helpers/mixins';
 ```
 
 You can also import on a per class / mixin as well.
