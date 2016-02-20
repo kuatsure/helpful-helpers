@@ -1,0 +1,62 @@
+@import 'true';
+@import '../functions';
+
+@include test-module( 'Utilities' ) {
+
+  // Testing Functions
+  @include test( 'Shade - no percentage [function]' ) {
+    $base: #fff;
+
+    $test: shade( $base );
+
+    $expect: gray;
+
+    @include assert-equal(
+      $test,
+      $expect,
+      'Returns the augmented color with a percentage of 50%'
+    );
+  }
+
+  @include test( 'Shade - with percentage [function]' ) {
+    $base: #fff;
+
+    $test: shade( $base, 20% );
+
+    $expect: #ccc;
+
+    @include assert-equal(
+      $test,
+      $expect,
+      'Returns the augmented color with a paramed percentage'
+    );
+  }
+
+  @include test( 'Tint - no percentage [function]' ) {
+    $base: #000;
+
+    $test: tint( $base );
+
+    $expect: gray;
+
+    @include assert-equal(
+      $test,
+      $expect,
+      'Returns the augmented color with a percentage of 50%'
+    );
+  }
+
+  @include test( 'Tint - with percentage [function]' ) {
+    $base: #000;
+
+    $test: tint( $base, 20% );
+
+    $expect: #333;
+
+    @include assert-equal(
+      $test,
+      $expect,
+      'Returns the augmented color with a paramed percentage'
+    );
+  }
+}

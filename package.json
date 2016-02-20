@@ -16,11 +16,18 @@
     "mixins",
     "classes"
   ],
+  "scripts": {
+    "test": "mocha --reporter nyan test/test-functions.js"
+  },
   "homepage": "https://github.com/kuatsure/helpful-helpers",
   "bugs": "https://github.com/kuatsure/helpful-helpers/issues",
   "repository": {
     "type": "git",
     "url": "git://github.com/kuatsure/helpful-helpers.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~2.4.5",
+    "sass-true": "~2.0.3"
+  }
 }
