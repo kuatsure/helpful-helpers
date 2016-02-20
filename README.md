@@ -3,7 +3,7 @@
 > An opinionated collection of mixins and classes for sass
 
 [![GitHub tag](https://img.shields.io/github/tag/kuatsure/helpful-helpers.svg?style=flat-square)](https://github.com/kuatsure/helpful-helpers)
-[![Code Climate](https://img.shields.io/codeclimate/github/kabisaict/flow.svg?style=flat-square)](https://codeclimate.com/github/kuatsure/helpful-helpers)
+[![Code Climate](https://img.shields.io/codeclimate/github/kuatsure/helpful-helpers.svg?style=flat-square)](https://codeclimate.com/github/kuatsure/helpful-helpers)
 
 Not all classes / mixins are written by me. Will give props to whomever if applicable.
 
