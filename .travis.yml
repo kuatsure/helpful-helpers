@@ -13,4 +13,4 @@ deploy:
 notifications:
   email: false
   slack:
-    secure: JNJY+zMN8GbrdhHBYWwR/DRLGhOhERmjvK4fio5fx70PHdfHcgBxt9OxngN3Tqej2gV2Xh2iJ8jkWhX6/u/E+2pQoysdQD3gVBqg8VEkekQkjULR0dM6Dgjnp5XZTDpbVr0ZXOxQndnGR5cUEaIgR3C6/Zz9tlwcsu1uYemYrvA=
+    secure: TnTdCaNI7WXyZf7lklMPzY3xNx6Eg2DlVzPyZG3IKUhAKufwkPb1nkONYmkH2JTi08KptTXvkjlUi9StDkj9lmbmEAWRJ1pez0l2YJpB29035ia7C/UODK6I33Rvqi8ghj6FjXrnp9L794DwWQHwyMylFwp9diUPLciHclERgjE=
