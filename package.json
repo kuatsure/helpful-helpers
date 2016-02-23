@@ -17,7 +17,7 @@
     "classes"
   ],
   "scripts": {
-    "test": "mocha --reporter nyan test/test-functions.js"
+    "test": "mocha test/test-functions.js"
   },
   "homepage": "https://github.com/kuatsure/helpful-helpers",
   "bugs": "https://github.com/kuatsure/helpful-helpers/issues",
