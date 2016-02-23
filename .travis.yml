@@ -1,6 +1,7 @@
 language: node_js
 node_js:
 - 5.6.0
+sudo: false
 deploy:
   provider: npm
   email: jarrett@thestyl.us
