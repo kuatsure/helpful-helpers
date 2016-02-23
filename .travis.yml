@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-- '5.6.0'
+- 5.6.0
 deploy:
   provider: npm
   email: jarrett@thestyl.us
@@ -11,5 +11,6 @@ deploy:
     tags: true
     repo: kuatsure/helpful-helpers
 notifications:
+  email: false
   slack:
     secure: JNJY+zMN8GbrdhHBYWwR/DRLGhOhERmjvK4fio5fx70PHdfHcgBxt9OxngN3Tqej2gV2Xh2iJ8jkWhX6/u/E+2pQoysdQD3gVBqg8VEkekQkjULR0dM6Dgjnp5XZTDpbVr0ZXOxQndnGR5cUEaIgR3C6/Zz9tlwcsu1uYemYrvA=
