@@ -1,0 +1,72 @@
+@import 'true';
+@import '../mixins';
+
+@include test-module( 'Mixins' ) {
+
+  // Testing Mixins
+  @include test( 'Content Anchor - no params' ) {
+    @include assert( 'Sort of outputs expected properties.' ) {
+      @include input {
+        p {
+          @include content-anchor;
+        }
+      }
+
+      @include expect {
+        border-bottom: 1px solid #c0c;
+        color: #c0c
+      }
+    }
+  }
+
+  @include test( 'Content Anchor - with params' ) {
+    @include assert( 'Sort of outputs expected properties.' ) {
+      @include input {
+        p {
+          @include content-anchor( #fff, #000 );
+        }
+      }
+
+      @include expect {
+        border-bottom: 1px solid #000;
+        color: #000
+      }
+    }
+  }
+
+  @include test( 'Attention - simple content' ) {
+    @include assert( 'Content is applied correctly.' ) {
+      @include input {
+        a {
+          @include attention {
+            color: #f00;
+          }
+        }
+      }
+
+      @include expect {
+        color: #f00;
+      }
+    }
+  }
+
+  @include test( 'Attention - complex content' ) {
+    @include assert( 'Content is applied correctly.' ) {
+      @include input {
+        a {
+          @include attention {
+            color: #f00;
+            border-bottom: 5px solid #f00;
+            font-size: 18px;
+          }
+        }
+      }
+
+      @include expect {
+        color: #f00;
+        border-bottom: 5px solid #f00;
+        font-size: 18px;
+      }
+    }
+  }
+}
