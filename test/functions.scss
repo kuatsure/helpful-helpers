@@ -1,10 +1,10 @@
 @import 'true';
 @import '../functions';
 
-@include test-module( 'Utilities' ) {
+@include test-module( 'Functions' ) {
 
   // Testing Functions
-  @include test( 'Shade - no percentage [function]' ) {
+  @include test( 'Shade - no percentage' ) {
     $base: #fff;
 
     $test: shade( $base );
@@ -18,7 +18,7 @@
     );
   }
 
-  @include test( 'Shade - with percentage [function]' ) {
+  @include test( 'Shade - with percentage' ) {
     $base: #fff;
 
     $test: shade( $base, 20% );
@@ -32,7 +32,7 @@
     );
   }
 
-  @include test( 'Tint - no percentage [function]' ) {
+  @include test( 'Tint - no percentage' ) {
     $base: #000;
 
     $test: tint( $base );
@@ -46,7 +46,7 @@
     );
   }
 
-  @include test( 'Tint - with percentage [function]' ) {
+  @include test( 'Tint - with percentage' ) {
     $base: #000;
 
     $test: tint( $base, 20% );
