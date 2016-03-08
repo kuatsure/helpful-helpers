@@ -1,4 +1,4 @@
-$default-attentions: '.active', ':active', ':focus', ':hover' !default;
+$hh-default-attentions: '.active', ':active', ':focus', ':hover' !default;
 
 // USAGE:
 //
@@ -36,7 +36,7 @@ $default-attentions: '.active', ':active', ':focus', ':hover' !default;
 // }
 
 
-@mixin attention( $classes: $default-attentions ) {
+@mixin attention( $classes: $hh-default-attentions ) {
   $selector: ( );
 
   @each $c in $classes {
