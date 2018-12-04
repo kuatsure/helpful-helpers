@@ -6,9 +6,8 @@ deploy:
   provider: npm
   email: jarrett@thestyl.us
   api_key:
-    secure: aaT19i7RAe4umiy8sWS6sm6b9SeqN73V9ho5+868rR2reXI8FWYaPQacQ+CjdkDbf2HWptoKGuFFx32u2hRTFDmNW40JS4ItcUZ5ertG3a09EjxTDtxr46IzuzSdKv2j7wHIBk3pxF9iy34kF6nBb/pr42DPO4DUd8zjWBMiUP0=
+    secure: D62lqzIRXkU54W1Osh4ss6CnKZ/F0LfCsXPr7bBBCKyz1Vzb2/WIIoOvk+3GX5QxxOaf8YTExpN3pggBfBW5uNPAni+9se5O1wRFFkbkZAuyvndmgf2VOd3QRSYLiTXHB398MOMvZYxG1HiNBDg+GeXAzTwK9lTfUWxhCQHQbOw=
   on:
-    all_branches: true
     tags: true
     repo: kuatsure/helpful-helpers
 notifications:
